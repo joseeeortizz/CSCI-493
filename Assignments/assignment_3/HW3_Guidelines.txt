@@ -1,0 +1,24 @@
+The project is due to May 20 (11:59 pm).
+
+The program should be submitted ONLY via GradeScope.
+No late submissions.
+The project is meant for individual work only. My “questions about the project” policy is in place. Using AI, copilot or similar tools isn’t considered an individual work.
+All your source and header files should start with a comment with your name in it. If I find any that doesn’t, I penalize it.
+The solution should build and work. MPI should work.
+
+In this assignment, we practice a basic MPI usage.
+You should write a C++ and MPI program that solves a system of N linear equations with N variables using the method of Gaussian elimination.
+Gaussian elimination is a classical parallel computing application, and it is a very nice way to practice MPI programming.We care mostly for the parallel programming part of this assignment and a little bit less for the mathematical part, so I suggest the following simplifying conditions for your assignment:
+* the system of linear equations that your program solves will always have exactly one solution.
+* for the system of linear equations that your program solves there will be no need to swap rows
+However, even though our main interest here is MPI, I expect you to understand Gaussian elimination, and it can potentially appear on the final exam.
+
+A system of linear equations to be solved will be supplied in a binary file. The name of file will be provided in the first command line argument. The format of the file is the following:
+* file starts with an unsigned int that states the problem size N.
+* then there go N series of (N+1) double numbers where each series represents a row of an augmented matrix.
+
+The result should be written in the binary file with the name provided in the second command line argument. The format of the file should be the following:
+* file starts with an unsigned int that states the problem size N.
+* then there go N double numbers that represent the solution. Solution value should be written in the correct order.
+
+Good luck!

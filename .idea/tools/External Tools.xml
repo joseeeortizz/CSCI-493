@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="mpi_gauss" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$CMakeCurrentBuildDir$" />
+      <option name="PARAMETERS" value="$CMakeCurrentBuildDir$" />
+      <option name="WORKING_DIRECTORY" value="$CMakeCurrentBuildDir$" />
+    </exec>
+  </tool>
+</toolSet>

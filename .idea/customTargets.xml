@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CLionExternalBuildManager">
+    <target id="339fd9f9-d679-4840-87c4-048bc946d5a9" name="mpi_gauss" defaultType="TOOL">
+      <configuration id="04f31eda-cd77-4acd-98cf-48c59d7cfe02" name="mpi_gauss">
+        <build type="TOOL">
+          <tool actionId="Tool_External Tools_mpi_gauss" />
+        </build>
+        <clean type="TOOL">
+          <tool actionId="Tool_External Tools_mpi_gauss" />
+        </clean>
+      </configuration>
+    </target>
+  </component>
+</project>

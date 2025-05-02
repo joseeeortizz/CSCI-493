@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run MPI Gauss" type="CLionExternalRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-np 4 ./mpi_gauss input.bin output.bin" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" WORKING_DIR="file://$PROJECT_DIR$/cmake-build-debug" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ParallelGaussianElimination" TARGET_NAME="mpi_gauss" CONFIG_NAME="mpi_gauss" RUN_PATH="/opt/homebrew/bin/mpirun">
+    <method v="2">
+      <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+    </method>
+  </configuration>
+</component>
